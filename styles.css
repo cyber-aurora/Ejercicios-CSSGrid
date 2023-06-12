@@ -1,0 +1,96 @@
+.container {
+    position: relative;
+    width: 890px;
+    height: 944px;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(24, 1fr);
+}
+
+.body {
+    width: 1024px;
+    height: 1440px;
+    background: #FFFFFF;
+}
+
+.care-bears {
+    font-size: 50px;
+    grid-area: 3 / 3 / 5 / 12;
+}
+
+.rectangle-2 {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    grid-area: 2 / 14 / 6 / 24;
+    background-image: url(./img/Rectangle5.png);
+}
+
+.rectangle-1 {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    grid-area: 2 / 2 / 6 / 13;
+}
+
+.rectangle-3 {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    grid-area: 7 / 2 / 12 / 6;
+    background-image: url(./img/Rectangle21.png);
+}
+
+.rectangle-4 {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    grid-area: 7 / 7 / 12 / 11;
+    background-image: url(./img/Rectangle22.png);
+}
+
+.rectangle-6 {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    grid-area: 7 / 20 / 12 / 24;
+    background-image: url(./img/Rectangle10.png);
+
+}
+
+.rectangle-5 {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    grid-area: 7 / 12 / 18 / 19;
+    background-image: url(./img/Rectangle8.png);    
+}
+
+.rectangle-7 {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    grid-area: 13 / 2 / 18 / 11;
+    background-image: url(./img/Rectangle11.png);
+}
+
+.rectangle-8 {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    grid-area: 13 / 20 / 18 / 24;
+    background-image: url(./img/Rectangle15.png);
+}
+
+.rectangle-9 {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    grid-area: 19 / 2 / 24 / 6;
+    background-image: url(./img/Rectangle16.png);
+}
+
+.rectangle-10 {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    grid-area: 19 / 7 / 24 / 11;
+    background-image: url(./img/Rectangle17.png);
+}
+
+.rectangle-11 {
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    grid-area: 19 / 12 / 24 / 24;
+    background-image: url(./img/Rectangle20.png);
+}
